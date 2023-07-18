@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- where we tell the browser how to process the document: -->
-        <!-- what title to put in the browser tab -->
-        <!-- what style sheets to load -->
-        <!-- what language to use -->
-          <!-- we will always use a character set called UTF-8 -->
-          <!-- UTF-8 allows for all languages as well as things like emoji -->
+    <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .banner-image {
+        width: 128px;
+        height: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+    </style>
   </head>
   <body>
     <div class="banner">
-        <img src="/thumbnails/profile-pic.jpg" alt="Standing near a tree">
+        <img src="/thumbnails/profile-pic.png" alt="Rick Maya standing near a tree" class="banner-image">
       </div>
 
       <div class="name">
